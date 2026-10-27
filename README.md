@@ -1,6 +1,6 @@
-# ZYR ZY-S1 — Desktop downloads
+# ZYCode — Desktop downloads
 
-Official Windows downloads for the **ZYR ZY-S1** desktop app by ZYR AI.
+Official Windows downloads for the **ZYCode** desktop app (formerly ZYR ZY-S1; runs the ZY-S1 model) by ZYR AI.
 This repository contains **only release files** (no source code).
 
 ## Download
@@ -9,8 +9,8 @@ Get the latest version from **[Releases → Latest](https://github.com/zyragenta
 
 | File | What it is |
 |---|---|
-| `ZYR-ZY-S1-Setup-<version>.exe` | **Setup wizard (recommended)** — choose folder, desktop/Start menu shortcuts, launch on finish |
-| `ZYR-ZY-S1-Portable-<version>.exe` | Portable, no install |
+| `ZYCode-Setup-<version>.exe` | **Setup wizard (recommended)** — choose folder, desktop/Start menu shortcuts, launch on finish |
+| `ZYCode-Portable-<version>.exe` | Portable, no install |
 
 The app updates itself: it checks `latest.json` on the latest release at launch and every 6 hours,
 downloads in the background and asks you to restart.
@@ -18,8 +18,9 @@ downloads in the background and asks you to restart.
 ## Troubleshooting
 
 - **SmartScreen "Windows protected your PC"** — builds are unsigned: click **More info → Run anyway**.
-- **Uninstall** — Settings → Apps (or Add/Remove Programs) → ZYR ZY-S1.
-- **Logs for a bug report** — `%APPDATA%\ZYR ZY-S1\logs\main.log`.
+- **Uninstall** — Settings → Apps (or Add/Remove Programs) → ZYCode.
+- **Logs for a bug report** — `%APPDATA%\ZYCode\logs\main.log`.
+- **Run ZY-S1 on your PC** — click **Download ZY-S1 model** in the top bar (or Model panel / Settings). Pause, resume and cancel are supported.
 - **Sign-in** — the desktop app signs in with an email code.
 
 © 2026 ZYR AI · [zyr3.vercel.app](https://zyr3.vercel.app)
