@@ -9,7 +9,8 @@ Get the latest version from **[Releases → Latest](https://github.com/zyragenta
 
 | File | What it is |
 |---|---|
-| `ZYCode-Setup-<version>.exe` | **Setup wizard (recommended)** — choose folder, desktop/Start menu shortcuts, launch on finish |
+| `ZYCode-Setup-<version>.exe` | **ZYCode installer (recommended)** — dark native setup, no admin needed, works on low-end PCs |
+| `ZYCode-Setup-Classic-<version>.exe` | Classic setup wizard (fallback) — choose folder, shortcuts, launch on finish |
 | `ZYCode-Portable-<version>.exe` | Portable, no install |
 
 The app updates itself: it checks `latest.json` on the latest release at launch and every 6 hours,
@@ -18,6 +19,7 @@ downloads in the background and asks you to restart.
 ## Troubleshooting
 
 - **SmartScreen "Windows protected your PC"** — builds are unsigned: click **More info → Run anyway**.
+- **Installer problems** — try `ZYCode-Setup-Classic-<version>.exe`, or Portable (no install).
 - **Uninstall** — Settings → Apps (or Add/Remove Programs) → ZYCode.
 - **Logs for a bug report** — `%APPDATA%\ZYCode\logs\main.log`.
 - **Run ZY-S1 on your PC** — click **Download ZY-S1 model** in the top bar (or Model panel / Settings). Pause, resume and cancel are supported.
