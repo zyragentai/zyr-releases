@@ -9,7 +9,7 @@ Get the latest version from **[Releases → Latest](https://github.com/zyragenta
 
 | File | What it is |
 |---|---|
-| `ZYCode-Setup-<version>.exe` | **ZYCode installer (recommended)** — dark native setup, no admin needed, works on low-end PCs |
+| `ZYCode-Setup-<version>.exe` | **ZYCode Setup (recommended)** — custom ZYCode installer window: Install / Customize (folder, desktop shortcut) / progress / Launch. No admin needed. |
 | `ZYCode-Setup-Classic-<version>.exe` | Classic setup wizard (fallback) — choose folder, shortcuts, launch on finish |
 | `ZYCode-Portable-<version>.exe` | Portable, no install |
 
